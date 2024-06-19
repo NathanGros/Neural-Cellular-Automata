@@ -369,17 +369,6 @@ void main() {
 
 	//create neighbors ponderation table
 	float *weights = malloc(9*sizeof(float));
-	/*
-	weights[0] = 0.68;
-	weights[1] = -0.9;
-	weights[2] = 0.68;
-	weights[3] = -0.9;
-	weights[4] = -0.66;
-	weights[5] = -0.9;
-	weights[6] = 0.68;
-	weights[7] = -0.9;
-	weights[8] = 0.68;
-	*/
 	weights[0] = 0.8;
 	weights[1] = -0.85;
 	weights[2] = 0.8;
